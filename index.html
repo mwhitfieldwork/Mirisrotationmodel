@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Little Pieces Experience</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three/build/three.module.js",
+            "@miris-inc/three": "https://unpkg.com/@miris-inc/three"
+          }
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/@miris-inc/components"></script>
+</head>
+<body>
+    <div class="parallax-container"> 
+        <!-- Background Layer -->
+        <div class="parallax-layer parallax-layer-background"  id="model-wrapper"> 
+        </div>
+        
+        <!-- Base Layer -->
+        <div class="parallax-layer parallax-layer-base">
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo"><img src="images/logo.png" alt="Logo" width="100" height="auto" /></div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#album">Album</a>
+                    <a href="#store">Store</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="hero" id="home">
+                <div class="floating-elements">
+                    <div class="floating-element element-1"></div>
+                    <div class="floating-element element-2"></div>
+                    <div class="floating-element element-3"></div>
+                </div>
+                
+                <div class="hero-content">
+                    <h1>Small Little Pieces</h1>
+                    <p>Experience the album experiment from Griteez</p>
+                    <a href="#album" class="cta-button">Listen Now</a>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down fa-2x"></i>
+                </div>
+            </section>
+
+            <!-- Album Section 
+            <section class="album-section" id="album">
+                <div class="album-container">
+                    <div class="album-art">
+                        <miris-scene viewer-key="IRp1uJ0wrlSi9Ktmw7wIJ66Uxn0yli5gF36MYu3l5h0" class="album-cover">
+                            <miris-stream uuid="28e6fd38-66fe-4272-b069-3054321f2ed4"></miris-stream>
+                        </miris-scene>
+                    </div>
+                    <div class="album-info">
+                        <h2>Small Little Pieces</h2>
+                        <h3>Available on Spotify & Pandora</h3>
+                        <ul class="track-list">
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0WIJ7UhYkLhqx72aSLqSpL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3zRWy1Qoe4Vfo8QbZeFKWC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4dRXYJfg1yZTWHyttR1mF1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1YDEPnbb7kr53xSOQe81VB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1Twy52FmzvMa69YqTf1nSq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1vXan4dAhPcLywzLdtnCbs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                            <li><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2zU9xtGjcJ5CRg1KScJxRm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+                        </ul>
+                        <a href="https://open.spotify.com/album/7Ikrq0MOg5g9Ntb2g77mCP" class="spotify-link">
+                            <i class="fab fa-spotify"></i> Listen on Spotify
+                        </a>
+                    </div>
+                </div>
+            </section>-->
+
+            <!-- Accessibility Section -->
+            <section class="store-section" id="store">
+                <div class="store-container">
+                    <h2>Grit Teez Store</h2>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-info">
+                                <h3>GOD IS LOVE</h3>
+                                <p>Wear your story proudly—your life, your journey, your presence is the true context.</p>
+                            </div>
+                            <a href="https://grittees.bigcartel.com/product/god-is-love"><img src="images/one.png" alt="God is love"/></a>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-info">
+                                <h3>WORTHY DARK</h3>
+                                <p>God deserves our praise always, through every circumstance, trial, joy, and moment of life.</p>
+                            </div>
+                            <a href="https://grittees.bigcartel.com/product/worthy-badge-variation-2"><img src="images/two.png" alt="God is love"/></a>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-info">
+                                <h3>GROWTH MINDSET</h3>
+                                <p>From classrooms to boardrooms, we can all improve on skillset and empower ourselves</p>
+                            </div>
+                            <a href="https://grittees.bigcartel.com/product/growth-matters"><img src="images/three.png" alt="God is love"/></a>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-info">
+                                <h3>NAME YOUR FEARS</h3>
+                                <p>Nme your fears and challenge them that's part of what CBT is all about.</p>
+                            </div>
+                            <a href="https://grittees.bigcartel.com/product/name-your-fears-paint"><img src="images/four.png" alt="God is love"/></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer" id="contact">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2023 Accessible Music Experience. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
