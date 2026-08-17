@@ -526,6 +526,12 @@ iframe {
     .feature-info p{
         display:none;
     }
+    
+    .parallax-model {
+        width: 150%;
+        height: 150%;
+        transform: translateX(-25%) translateY(-10%);
+    }
   }
 
 /* Scroll Indicator */
@@ -548,3 +554,4 @@ iframe {
         transform: translateY(-10px) translateX(-50%);
     }
 }
+
